@@ -1,0 +1,24 @@
+{
+    "name": "acassio/tecnofit2",
+    "description": "Teste tecnico Tecnofit",
+    "authors": [
+        {
+            "name": "Acassio Vilas Boas",
+            "email": "acassio.dev@outlook.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Domain\\": "Domain/"
+        },
+        "classmap": [
+            "Domain/"
+        ]
+    },
+    "require": {
+        "doctrine/dbal": "^3.1",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "coffeecode/router": "^1.0"
+    }
+}
